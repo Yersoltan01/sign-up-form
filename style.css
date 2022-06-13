@@ -1,0 +1,90 @@
+body {
+  background-color: #f8faff;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #7a9fe4;
+}
+
+.sign-up-container {
+  padding: 10px;
+  background-color: #fff;
+  width: 80vw;
+  min-height: 90vh;
+  min-width: 480px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.sign-up-img img {
+  width: 100%;
+}
+
+.sign-up-img {
+  max-width: 35vw;
+  min-width: 400px;
+}
+
+.sign-up-form {
+  padding: 10px;
+  max-width: 30vw;
+  min-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: space-evenly;
+  gap: 15px;
+}
+
+.sign-up-form h1 {
+  font-size: 4rem;
+  color: #233c94;
+}
+
+.sign-up-form p {
+    color: #252553;
+  font-size: 1.5rem;
+}
+
+#join {
+  width: 160px;
+  height: 50px;
+  background-color: #fff;
+  border:transparent;
+  border-radius: 10px;
+  cursor:pointer;
+  font-size: 16px;
+  display: flex; 
+  align-items: center;
+}
+
+form {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+form input {
+  border: 1px solid #d4dcf8;
+  border-radius: 5px;
+  height: 25px;
+
+}
+
+form label {
+  color: #627489;
+  font-size: 12px;
+}
+
+.sign-up-form img {
+  width: 30px;
+  margin-right: 10px;
+}
